@@ -1,0 +1,59 @@
+body{
+    font-size: 20px;
+}
+.babulu h3{
+    color:rgb(45, 45, 141);
+    text-align: center;
+}
+.events{
+    width: 100%;
+    text-align: center;
+}
+.events h4 {
+    width: 70%;
+    height: 40px;
+    font-size: larger;
+    padding-top: 15px;
+    color: rgb(45, 45, 141);
+    margin: 0 auto;    
+    border-radius: 10px;
+    background-color: rgb(144, 143, 143);
+}
+.table {
+    margin: 0 auto;
+    /* background-color: red; */
+    width: 70%;
+}
+table {
+    margin-top: 70px;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid rgb(2, 2, 132);
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  
+}
+  
+tr:nth-child(even) {
+    background-color: rgb(224, 223, 223);;
+}
+tr td:nth-child(2){
+    text-align: center;
+}
+  
+th {
+    background-color:rgb(24 68 112);
+    padding: 15px;
+}
+.data{
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 70%;
+}
+
+.data dt{
+    font-weight: 600;
+}
